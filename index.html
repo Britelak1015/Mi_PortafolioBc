@@ -99,6 +99,22 @@
             </article>
         </section>
     </main>
+    <h2>Contacto</h2>
+  <form action="/enviar" method="post">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required minlength="2" maxlength="50"><br><br>
+
+    <label for="email">Correo electrónico:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="edad">Edad:</label><br>
+    <input type="number" id="edad" name="edad" required min="18" max="99"><br><br>
+
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje" rows="4" required minlength="10" maxlength="300"></textarea><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
 <!-- este es el pie de paguina --> 
     <footer>
         <p>&copy; 2025 Brithany Yulady Carbo Gonzalez- Todos los derechos reservados.</p>
